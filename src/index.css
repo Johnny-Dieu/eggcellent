@@ -16,10 +16,18 @@ code {
 @tailwind components;
 @tailwind utilities;
 
-.menu-card {
+/* .menu-card {
   @apply flex flex-col justify-center items-center bg-white h-screen font-mono py-40;
+} */
+
+.menu-card {
+  @apply flex flex-col basis-96 flex-1 pl-10 pr-10 pb-10 pt-20;
 }
 
 .menu-card-text {
   @apply flex flex-col justify-center items-center bg-yellow-500 pr-10 pl-10 pt-10 pb-10;
+}
+
+.flip-horizontally {
+  transform: scaleX(-1);
 }

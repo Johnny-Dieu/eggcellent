@@ -4,13 +4,16 @@ import { Link } from "react-router-dom";
 const Hero = () => {
   return (
     <div className="bg-white h-screen flex flex-col justify-center items-center">
-      <img src="https://doodleipsum.com/700/flat?i=93edffde9cb584da90241b8253cf2de3" />
+      <img
+        className="h-fit rounded"
+        src="https://doodleipsum.com/700/flat?i=93edffde9cb584da90241b8253cf2de3"
+      />
       <h1 className="lg:text-9xl md:text-7xl sm:text-5xl text-3xl font-black mb-14">
         EGGCELLENT
       </h1>
       <Link
         to="/"
-        className="py-6 px-10 bg-yellow-500 rounded-full text-3xl hover:bg-yellow-300 transition duration-300 ease-in-out flex items-center animate-bounce"
+        className="py-3 px-10 mb-40 bg-yellow-500 rounded-full text-3xl hover:bg-yellow-300 transition duration-300 ease-in-out flex items-center animate-bounce"
       >
         Order Now
         <svg
